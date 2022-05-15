@@ -1,0 +1,29 @@
+body {
+    padding-left: 15px;
+}
+
+.grid_fit {
+    width: min(100%, 800px);
+    margin: 10px auto;
+    padding: 4px;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.grid_fit {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.person_head {
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

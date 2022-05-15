@@ -72,3 +72,14 @@ PTフォームのページが表示できた。
 git status
 git add --all .
 git commit -m "PT page first commit"
+git push
+
+=================================================================================
+
+CSSの設定とptformのページの原型を作成
+
+■Git プッシュ
+git status
+git add --all .
+git commit -m "PT page first commit"
+git push
